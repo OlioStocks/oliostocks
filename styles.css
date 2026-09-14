@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+:root{
+  --bg:#05070a;
+  --panel:#0b0e13;
+  --panel2:#10141b;
+  --line:rgba(255,255,255,.10);
+  --text:#f5f5f2;
+  --muted:#a7abb3;
+  --gold:#d7aa4d;
+  --gold2:#f0ca73;
+  --max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.nav{height:82px;display:flex;align-items:center;justify-content:space-between;max-width:var(--max);margin:auto;padding:0 28px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:11px;font-size:12px;letter-spacing:2px;font-weight:600}
+.brand b{font-weight:400;color:#9ea3ac}
+.brand-mark{width:30px;height:30px;border:1px solid rgba(215,170,77,.7);display:grid;place-items:center;color:var(--gold);font-family:Georgia,serif;font-size:16px}
+.nav nav{display:flex;gap:30px;color:#aeb2ba;font-size:13px}
+.nav nav a:hover{color:#fff}
+.nav-cta{font-size:12px;border:1px solid rgba(215,170,77,.5);padding:11px 15px;color:var(--gold2)}
+.hero{max-width:var(--max);margin:auto;min-height:680px;padding:95px 28px 80px;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.eyebrow,.section-label{font-size:10px;letter-spacing:2.4px;color:var(--gold);font-weight:700}
+.eyebrow span{display:inline-block;width:22px;height:1px;background:var(--gold);vertical-align:middle;margin-right:9px}
+h1,h2{font-family:Manrope,sans-serif;letter-spacing:-.045em;line-height:1.03;margin:20px 0}
+h1{font-size:clamp(48px,6vw,78px);font-weight:500}
+h1 em{font-family:Georgia,serif;color:var(--gold2);font-weight:400}
+.hero-text{max-width:570px;color:var(--muted);font-size:17px}
+.hero-actions{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+.button{display:inline-flex;align-items:center;justify-content:center;gap:15px;padding:14px 19px;font-size:12px;font-weight:600;letter-spacing:.3px;border:1px solid var(--line)}
+.button-gold{background:var(--gold);border-color:var(--gold);color:#090a0c}
+.button-gold:hover{background:var(--gold2)}
+.button-ghost:hover{border-color:rgba(215,170,77,.6)}
+.microcopy{font-size:11px;color:#747a84;margin-top:13px}
+.hero-visual{position:relative}
+.glow{position:absolute;width:360px;height:360px;background:rgba(215,170,77,.09);filter:blur(70px);border-radius:50%;top:10%;left:20%}
+.research-card{position:relative;background:linear-gradient(145deg,#11151c,#080a0e);border:1px solid var(--line);padding:25px;box-shadow:0 35px 80px rgba(0,0,0,.45)}
+.card-top,.chart-foot{display:flex;justify-content:space-between;align-items:center;font-size:9px;letter-spacing:1.5px;color:#767c85}
+.live-dot{color:#92c87d}
+.metric-row{display:flex;justify-content:space-between;align-items:end;margin:45px 0 18px}
+.metric-row small,.equation-band small{display:block;color:#747a84;font-size:9px;letter-spacing:1.5px;margin-bottom:7px}
+.metric-row strong{font-size:22px;font-weight:500}
+.metric-value{font-size:36px;color:var(--gold2);font-family:Manrope}
+.chart{width:100%;height:245px;display:block}
+.trust-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 28px;display:flex;justify-content:center;gap:25px;color:#8e949e;font-size:9px;letter-spacing:2px}
+.trust-strip i{color:var(--gold);font-style:normal}
+.section{max-width:var(--max);margin:auto;padding:105px 28px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:90px}
+h2{font-size:clamp(36px,4vw,58px);font-weight:500}
+.section-copy{color:var(--muted);font-size:16px;max-width:540px}
+.mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:35px;border:1px solid var(--line)}
+.mini-grid div{background:var(--bg);padding:20px}
+.mini-grid strong{display:block;color:var(--gold);font-size:11px;margin-bottom:12px}
+.mini-grid span{font-size:11px;color:#d4d6d9}
+.dark-panel{max-width:none;background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-left:max(28px,calc((100vw - var(--max))/2 + 28px));padding-right:max(28px,calc((100vw - var(--max))/2 + 28px))}
+.Vanstone Financial-head{display:flex;justify-content:space-between;gap:30px;align-items:end}
+.Vanstone Financial-head h2 span{color:var(--gold2)}
+.Vanstone Financial-head p{color:var(--muted);max-width:560px}
+.text-link{font-size:12px;color:var(--gold2);white-space:nowrap}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:50px}
+.feature-grid article{background:var(--panel);padding:35px;min-height:210px}
+.feature-number{font-size:10px;color:var(--gold)}
+.feature-grid h3{font-family:Manrope;font-size:22px;margin:55px 0 8px}
+.feature-grid p{color:var(--muted);font-size:13px;margin:0}
+.equation-band{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:24px;border:1px solid var(--line);padding:25px;margin-top:45px}
+.equation-band strong{font-family:Manrope;font-weight:500}
+.eq{color:var(--gold);font-size:24px}
+.disclaimer{color:#686e78;font-size:10px;max-width:900px;margin-top:18px}
+.demo-head{display:flex;justify-content:space-between}
+.demo-head p{color:var(--muted)}
+.video-shell{position:relative;margin-top:38px;background:#000;border:1px solid var(--line);min-height:450px;overflow:hidden}
+.video-shell video{width:100%;height:auto;display:block;min-height:450px;object-fit:cover}
+.video-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;pointer-events:none;background:radial-gradient(circle at center,rgba(215,170,77,.10),transparent 45%)}
+.video-fallback span{font-size:11px;letter-spacing:3px;color:var(--gold)}
+.video-fallback p{font-size:12px;color:#777d87}
+.video-shell:has(video[src]) .video-fallback{display:none}
+.quote-section{border-top:1px solid var(--line);text-align:center;max-width:900px}
+.quote-mark{font-family:Georgia,serif;color:var(--gold);font-size:70px;line-height:.7}
+blockquote{font-family:Georgia,serif;font-size:clamp(28px,4vw,48px);line-height:1.2;margin:25px 0;color:#eee}
+.quote-line{width:35px;height:1px;background:var(--gold);margin:28px auto}
+.quote-section p{color:#777d86;font-size:11px;letter-spacing:1px}
+.contact{padding-top:30px}
+.contact-card{background:linear-gradient(135deg,#12161d,#090b0f);border:1px solid var(--line);padding:55px;display:flex;justify-content:space-between;gap:50px;align-items:center}
+.contact-card h2{font-size:46px;max-width:650px}
+.contact-card p{color:var(--muted)}
+.contact-actions{display:flex;flex-direction:column;align-items:stretch;gap:10px;min-width:220px}
+.phone{text-align:center;color:#9ca1aa;font-size:12px;margin-top:7px}
+footer{max-width:var(--max);margin:auto;padding:30px 28px 45px;display:flex;justify-content:space-between;color:#656b75;font-size:10px;border-top:1px solid var(--line)}
+.footer-brand{color:#ddd}
+@media(max-width:850px){
+  .nav nav{display:none}.hero{grid-template-columns:1fr;padding-top:65px}.hero-visual{margin-top:20px}.split{grid-template-columns:1fr;gap:35px}.feature-grid{grid-template-columns:1fr}.equation-band{grid-template-columns:1fr}.eq{text-align:center}.contact-card{flex-direction:column;align-items:flex-start;padding:35px}.contact-actions{width:100%}footer{flex-direction:column;gap:12px}.Vanstone Financial-head{flex-direction:column;align-items:flex-start}
+}
+@media(max-width:520px){
+  .nav{padding:0 18px}.nav-cta{display:none}.hero,.section{padding-left:18px;padding-right:18px}.hero{padding-top:50px}.hero-text{font-size:15px}.trust-strip{gap:10px;font-size:7px}.mini-grid{grid-template-columns:1fr}.research-card{padding:18px}.contact-card h2{font-size:35px}
+}
