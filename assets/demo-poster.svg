@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#07090d"/>
-<path d="M80 720 C220 680 260 590 410 620 S650 470 790 530 S1040 360 1160 420 S1370 230 1520 260" fill="none" stroke="#d7aa4d" stroke-width="7"/>
-<path d="M80 720 C220 680 260 590 410 620 S650 470 790 530 S1040 360 1160 420 S1370 230 1520 260 L1520 820 L80 820Z" fill="#d7aa4d" opacity=".08"/>
-<text x="90" y="125" fill="#d7aa4d" font-family="Arial" font-size="28" letter-spacing="7">VANSTONE FINANCIAL</text>
-<text x="90" y="205" fill="#f5f5f2" font-family="Arial" font-size="74" font-weight="700">OLIOBOT DEMO</text>
-<text x="90" y="255" fill="#969ca6" font-family="Arial" font-size="27">Replace this poster with the final demo video.</text>
-</svg>
